@@ -10,6 +10,9 @@ body {
     background-size: 100%;*/
     display: contents;
 }
+.box-backgroundimg{
+    display:inline-flex
+}
 .img-header{
     cursor: url("icons/2x/outline_expand_more_white_36dp.png"), auto;
     display: flex;
@@ -181,6 +184,10 @@ body {
         font-family: 'Open Sans', sans-serif;
         font-weight: bold;
         float: right;
+
+    }
+    .box-backgroundimg{
+        width: 50%;
 
     }
 }
