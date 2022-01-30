@@ -4,29 +4,19 @@ body {
     padding: 0;
 }
 .header{
-    /*background-image: url("img/background.jpeg");
-    height: 780px;
-    background-repeat: no-repeat;
-    background-size: 100%;*/
     display: contents;
 }
 .box-backgroundimg{
-    display:inline-flex
+    display: inline-flex;
+    background-image: url("img/background2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .img-header{
     cursor: url("icons/2x/outline_expand_more_white_36dp.png"), auto;
     display: flex;
     height: 100vh;
     width: 100vw;
-  
-}
-.img-header::before{
-    content: url("img/background2.jpeg");
-    background-repeat: no-repeat;
-    width: 100vw;
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
 }
 .box-icons{
     cursor: pointer;
@@ -157,6 +147,9 @@ body {
     font-family: 'Open Sans', sans-serif;
     float: right;
 }
+.section-charts{
+    background-color: #0d32ad;
+}
 
 
 
@@ -187,7 +180,32 @@ body {
 
     }
     .box-backgroundimg{
-        width: 50%;
+        background-size: contain;
 
+    }
+    .img-header{
+        height: 295px;
+    }
+    .box-backgroundimg{
+        background-size: cover;
+    }
+    .box-icons{
+        cursor: pointer;
+        right: 200px;
+        bottom: 100px;
+        position: static;
+        display: flex;
+        align-items: flex-end;
+    }
+    .section-table{
+        display: table;
+    }
+    .table{
+        display: inline-block;
+    }
+    .table-elements{
+        display: inline-block;
+        text-align: left;
+        position: relative;
     }
 }
