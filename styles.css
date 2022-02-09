@@ -159,6 +159,11 @@ body {
     padding-right: 80px;
     margin-top: 0px;
 }
+.box-icons-footer{
+    cursor: pointer;
+    right: 200px;
+    bottom: 100px;
+}
 .footer-p{
     text-align: center;
     font-family: 'Open Sans', sans-serif;
@@ -169,7 +174,7 @@ body {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     color: white;
-    font-size: smaller;
+    font-size: 1px;
 }
 
 
