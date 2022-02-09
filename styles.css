@@ -83,13 +83,14 @@ body {
     padding-right: 80px;
     margin-top: 0px;
 }
-.section-releases{
+.section-radioshow{
     background-color: #161616ed;
     margin-top: 99px;
     padding-top: 25px;
     padding-left: 80px;
     padding-right: 80px;
     margin-top: 0px;
+
 }
 .box-title{
     text-align: center;
@@ -149,6 +150,26 @@ body {
 }
 .section-charts{
     background-color: #0d32ad;
+}
+.footer{
+    background-color: #000000ed;
+    margin-top: 99px;
+    padding-top: 25px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-top: 0px;
+}
+.footer-p{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: small;
+}
+.footer-final{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: smaller;
 }
 
 
